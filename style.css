@@ -18,6 +18,11 @@
     margin: 0 auto;
 }
 
+.body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Color style */
 .text-dark {
     color: #252432;
@@ -81,8 +86,11 @@
     align-items: center;
     padding: 20px;
     padding-top: 221px;
-    max-width: 1140px;
+    max-width: 1440px;
+    padding: 221px 120px;
     margin: auto;
+    box-sizing: content-box;
+    border: 145px;
 
 }
 
