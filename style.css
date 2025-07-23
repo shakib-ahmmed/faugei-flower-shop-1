@@ -84,10 +84,10 @@
 .banner {
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-top: 221px;
+    margin-bottom: 0;
     max-width: 1440px;
-    padding: 221px 120px;
+    padding: 221px;
+    padding-bottom: 20px;
     margin: auto;
     box-sizing: content-box;
     border: 145px;
@@ -114,5 +114,78 @@
     text-align: right;
     width: 100%;
     margin-bottom: 0;
+
+}
+
+/* plant section style */
+
+.plant-text {
+    text-align: center;
+    margin: 150px;
+    margin-bottom: 49px;
+    padding-top: 50px;
+    padding-bottom: 49px;
+    margin-top: 0;
+
+}
+
+.plant-title {
+    font-size: 3.12rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.plant-descripton {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 49px;
+}
+
+.plant-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 50px;
+    padding: 20px;
+}
+
+.plant-card {
+    border: 0px solid none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 270px;
+    height: 322px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+}
+
+.card-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.card-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card-btn {
+    width: 270px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 
 }
