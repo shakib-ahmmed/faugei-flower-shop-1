@@ -14,7 +14,7 @@
 }
 
 .main {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -85,10 +85,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
-    max-width: 1440px;
+    max-width: 1140px;
     padding: 221px;
     padding-bottom: 20px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: content-box;
     border: 145px;
 
@@ -196,12 +196,12 @@
 /* plant-lover-section-style*/
 
 .plant-lover-section {
-    max-width: 1440px;
+    max-width: 1140px;
     align-items: flex-start;
     justify-content: center;
     padding: 180px;
     gap: 60px;
-    margin: auto;
+    margin: 0 auto;
 
 }
 
@@ -253,12 +253,12 @@
 
 /* deal sections style */
 
-.deal-section {
+.deal-container {
 
-    max-width: 1440px;
+    max-width: 1140px;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
 
 }
 
@@ -280,33 +280,45 @@
 }
 
 .deals {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 28px;
+    width: 750px;
+    height: 423px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
-.deals-1 {
-    gap: 25px;
+#deal-1 {
+    grid-column: span 2;
+    border-radius: 16px;
 }
 
-.deals-2 {
-    gap: 28px;
+#deal-2 {
+    grid-column: span 3;
+    grid-row: span 2;
+    border-radius: 16px;
+}
+
+#deal-3 {
+    grid-column: span 2;
+    border-radius: 16px;
 }
 
 .deal-card-bloom {
-    background-color: #f0f8f0;
+    background-color: #555;
     background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    opacity: 0.6;
     background-size: cover;
     width: 366px;
     height: 206px;
     border-radius: 16px;
-    box-shadow: #333;
-
 }
 
 .deal-card-ana {
     background-color: #f0f8f0;
     background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
     background-size: cover;
     width: 366px;
     height: 206px;
@@ -316,6 +328,7 @@
 .deal-card-zabo {
     background-color: #f0f8f0;
     background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
     background-size: cover;
     width: 753px;
     height: 423px;
