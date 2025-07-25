@@ -118,6 +118,12 @@
 }
 
 /* plant section style */
+.plant {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
 
 .plant-text {
     text-align: center;
@@ -144,9 +150,9 @@
 
 .plant-container {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    gap: 50px;
-    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
 }
 
 .plant-card {
@@ -254,12 +260,8 @@
 /* deal sections style */
 
 .deal-container {
-
     max-width: 1140px;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
-
 }
 
 .deal-text {
@@ -282,9 +284,9 @@
 .deals {
     width: 750px;
     height: 423px;
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 
 }
 
@@ -305,8 +307,9 @@
 }
 
 .deal-card-bloom {
-    background-color: #555;
+    background-color: #e7dcdc;
     background-image: url(assets/deal-bloom.png);
+    text-align: center;
     background-repeat: no-repeat;
     opacity: 0.6;
     background-size: cover;
@@ -318,16 +321,18 @@
 .deal-card-ana {
     background-color: #f0f8f0;
     background-image: url(assets/deal-ana.png);
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 366px;
-    height: 206px;
+    height: 197px;
     border-radius: 16px;
 }
 
 .deal-card-zabo {
     background-color: #f0f8f0;
     background-image: url(assets/deal-zabo.png);
+    text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 753px;
@@ -344,15 +349,47 @@
     color: #ddd;
 }
 
-.plant-name-2 {
+.deal-card-zabo h1 {
     text-align: center;
     padding-top: 180px;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #ddd;
+    color: #1a1818;
 }
 
 .shopnow {
     text-decoration: none;
     color: #ddd;
 }
+
+
+/* subscribe-container-style */
+
+.subscribe-container {
+    background-image: url(assets/news-letter-bg.png);
+    color: #ddd;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 533px;
+
+}
+
+.newsletter-title {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 3.12rem;
+    font-weight: 900;
+    color: #ddd;
+    padding-bottom: 40px;
+}
+
+.input {
+    height: 50px;
+    width: 644px;
+    color: #ddd;
+    border: 0 solid;
+    padding-right: 0;
+}
+.
