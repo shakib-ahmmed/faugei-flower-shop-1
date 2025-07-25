@@ -522,11 +522,16 @@ body {
         display: flex !important;
         align-items: center;
         gap: 6px;
+        z-index: 10;
+        position: relative;
     }
+
+
 
     .cart-img {
         width: 24px;
         height: 24px;
+        display: block;
     }
 
 
@@ -676,19 +681,35 @@ body {
 
     .footer-nav-links-1,
     .footer-nav-links-2 {
-        text-align: center;
-        padding: 0;
-    }
-
-    .footer-icon {
         display: flex;
-        justify-content: center;
-        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 0.95rem;
+        color: #333;
+        text-align: center;
+        margin: 0;
         padding: 0;
     }
 
-    .footer-icon img {
-        width: 28px;
-        height: 28px;
+    .footer-nav-links-1 a,
+    .footer-nav-links-2 a {
+        text-decoration: none;
+        color: inherit;
     }
+
+
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+}
+
+.footer-icon img {
+    width: 28px;
+    height: 28px;
+}
 }
