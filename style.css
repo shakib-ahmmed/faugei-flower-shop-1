@@ -232,6 +232,7 @@
     height: 286px;
     width: 286px;
     z-index: 10;
+    filter: drop-shadow(-4px 10px 10px rgba(0, 0, 0, 0.603));
 }
 
 .text-box {
@@ -422,6 +423,7 @@
 .footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
     max-width: 1120px;
     height: 348px;
     margin: 50px 160px;
@@ -434,6 +436,8 @@
 }
 
 .footer-description {
+    width: 359px;
+    height: 81px;
     text-align: left;
     font-size: 1.25rem;
     font-weight: 400;
